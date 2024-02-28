@@ -13,7 +13,7 @@ public class Charmeleon  implements PokemonState {
         System.out.println("Charmeleon ran away!");
     }
     public void evolve(Pokemon pokemon) {
-        if (pokemon.getXp() >= 16) {
+        if (pokemon.getXp() >= 32) {
             System.out.println("Charmeleon is evolving!");
             pokemon.setState(new Charizard());
         }
