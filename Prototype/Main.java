@@ -15,10 +15,10 @@ public class Main {
         kopio.tulostaAika();
 
         System.out.println("__________________Matalakopio____________________________________");
-        MatalakopioKello matalakopioKello = new MatalakopioKello(12, 20);
+        MatalaKopio matalakopioKello = new MatalaKopio(12, 20);
         matalakopioKello.tulostaAika();
 
-        MatalakopioKello matalakopioKopio = matalakopioKello.clone();
+        MatalaKopio matalakopioKopio = matalakopioKello.clone();
         matalakopioKopio.tulostaAika();
 
         matalakopioKello.asetaAika(13, 30);
