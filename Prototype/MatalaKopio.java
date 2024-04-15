@@ -27,7 +27,6 @@ class MatalaKopio implements Cloneable {
 
             return kopio;
         } catch (CloneNotSupportedException e) {
-            // Cloneable-tuen puuttuminen ei tulisi tapahtua, mutta käsittellään se silti
             e.printStackTrace();
             return null;
         }

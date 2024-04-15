@@ -26,7 +26,6 @@ class Kello implements Cloneable {
             kopio.minuuttiViisari = minuuttiViisari.clone();
             return kopio;
         } catch (CloneNotSupportedException e) {
-            // Cloneable-tuen puuttuminen ei tulisi tapahtua, mutta käsittellään se silti
             e.printStackTrace();
             return null;
         }
